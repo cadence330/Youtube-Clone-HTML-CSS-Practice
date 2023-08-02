@@ -1,0 +1,179 @@
+body {
+  margin-bottom: 300px;
+}
+
+.lightpink-background {
+  width: 100px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+}
+
+.lightblue-background {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.flexbox-13a {
+  border-style: none;
+  width: 300px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.item1 {
+  color: white;
+  background-color: black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.row2 {
+  color: white;
+  background-color: black;
+  margin-bottom: 16px;
+}
+
+.flexbox-13b {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.flexbox-13b-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  border: solid;
+  border-color: rgb(193, 189, 189);
+  border-width: 1px;
+  border-radius: 2px;
+  width: 332px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.inboxes-text {
+  font-size: 10px;
+  padding-top: 6px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+  color: gray;
+}
+
+.image-container {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.image {
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+.message-section {
+}
+
+.title-container-flex {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.time {
+  font-size: 14px;
+  color: gray;
+}
+
+.info-flex {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.message {
+  color: gray;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.container-13f {
+  display: flex;
+}
+
+.info-container {
+width: 200px;
+line-height: 16px;
+}
+
+.image-container-13f {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+}
+
+.tweet {
+  width: 360px;
+}
+
+.recommendation-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 12px;
+  display: flex;
+  width: 300px;
+  height: 80px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.spare-space {
+  width: 130px; 
+  height: 80px;
+  background-color: rgb(200, 200, 200);
+  margin-right: 10px;
+}
+
+.recommendation-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendation-url {
+  margin-top: 10px;
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.profile-name {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.handle {
+  color: gray;
+}
+
+

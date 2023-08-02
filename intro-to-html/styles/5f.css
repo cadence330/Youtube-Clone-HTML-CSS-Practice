@@ -1,0 +1,30 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.currency {
+  color:gray;
+  font-size: 12px;
+}
+
+.diff {
+  color:rgb(19, 121, 19);
+  font-size: 14px;
+}
+
+.hours {
+  color:gray;
+  font-size: 14px;
+}
+
+.perc {
+  color: rgb(190, 23, 23);
+  font-size: 14px;
+}

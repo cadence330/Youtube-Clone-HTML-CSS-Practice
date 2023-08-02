@@ -1,0 +1,45 @@
+.image-container {
+  width: 300px;
+  margin-left: 200px;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-to-cart-section {
+  background-color: rgba(255, 255, 255, 0.5); /* Use rgba to set opacity without affecting the button */
+  position: absolute;
+  bottom: 0;
+  height: 130px;
+  width: 300px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-cart-button {
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
